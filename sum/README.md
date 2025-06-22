@@ -1,8 +1,11 @@
-This is "sum of 2 numbers" with assembly for Linux x86-64
+# Sum of numbers
 
-Build it with: `make`
+This is a basic program that sums two integer numbers and checks if it is correct. If the sum is correct, it prints the message; otherwise, it just exits.
 
-More details at - [Say hello to x64 Assembly [part 2]](http://0xax.github.io/blog/2014/08/10/say-hello-to-x86_64-assembly-part-2/)
+To build the program, run:
 
-[@0xAX](http://twitter.com/0xAX)
+```bash
+make
+```
 
+For more details, read [Part 2. The `x86_64` concepts](https://github.com/0xAX/asm/blob/master/content/asm_2.md).
